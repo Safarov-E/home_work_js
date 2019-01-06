@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.slayder1 {
+	position: relative;
+}
+.slayder img{
+	width: 790px;
+	margin: 0 auto;
+	position: absolute;
+   left: 0;
+  right: 0;
+  top: 0;
+ transition:   1s; 
+}
+.button {
+	display: flex;
+	padding-top: 510px;
+	width: 112px;
+	margin: 0 auto;
+}
+.button-left{
+	margin-right: 10px;
+}
+input[type="button"]{
+	padding: 10px;
+}
+img.active {
+  display: block;
+}
+.none {
+	opacity: 0;
+}
+.active {
+	opacity: 1;
+}
+
+
+    
+ 
+ 
+ 
+ 
